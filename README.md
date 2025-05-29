@@ -19,7 +19,4 @@ This project implements a simple custom TCP protocol using Node.js's built-in `n
 - Node.js (v18+ recommended)
 - Native `net` module (no external dependencies)
 
----
-
-## 🗂️ Project Structure
 
