@@ -1,0 +1,19 @@
+{
+  "name": "tcp_portocol",
+  "version": "1.0.0",
+  "description": "My owm protocol",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "devansh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.24"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
