@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  tcp-server:
+    build:
+      context: ./server
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  tcp-client:
+    build:
+      context: ./client
+    depends_on:
+      - tcp-server
+    restart: unless-stopped
